@@ -1,0 +1,42 @@
+:root {
+  --front-color: #101c2c;
+  --back-color: #05c3ff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100vh;
+  font-family: 'Righteous', cursive;
+}
+
+.card {
+  width: 100px;
+  height: 100px;
+}
+
+.card__front,
+.card__back {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.45);
+}
+
+.card__front {
+  background-color: var(--front-color);
+}
+
+.card__back {
+  background-color: var(--back-color);
+  font-size: 2rem;
+}
