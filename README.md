@@ -12,7 +12,7 @@ A simple Memory game to practice javascript and frontend skills.
 
 This project is one of the PROGRAMADOR Br course module, to help and practice javascript and frontend skills.
 <br><br>
-using MVC architecture where the view doesn't know the business rule layer of the game,
+Using MVC architecture where the view doesn't know the business rule layer of the game,
 the shuffling and random generation of cards is also implemented, so that each game is different.
 
 ## Stack used
