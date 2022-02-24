@@ -50,7 +50,7 @@ body {
   backface-visibility: hidden;
 }
 
-.flip {
+.flipped {
   transform: rotateY(180deg);
 }
 
@@ -67,7 +67,7 @@ body {
 #gameOver {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-color: var(--gameOver-background-color);
   color: var(--text-color);
   font-size: 3rem;
@@ -86,6 +86,7 @@ body {
   background-color: var(--btn-color);
   border: none;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 #gameBoard {
@@ -93,6 +94,12 @@ body {
   display: grid;
   grid-template: auto auto auto auto auto auto auto/ auto auto auto;
   gap: 1rem;
+  height: 100vh;
+  padding: 1rem;
+}
+
+#gameBoard img {
+  width: 90%;
 }
 
 @media screen and (min-width: 500px) {
