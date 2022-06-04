@@ -29,7 +29,7 @@ the shuffling and random generation of cards is also implemented, so that each g
 ## 👾 Technologies
 
 - Semantic HTML
-- CSS (SCSS)
+- CSS
 - Javascript
 
 ## License
